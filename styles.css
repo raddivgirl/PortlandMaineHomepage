@@ -1,19 +1,17 @@
-
+/*Overall Page Styling*/
 * { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    margin: 0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     
 }
-h1{
-font-family: 'Sail', cursive;
-font-size:6em;
-}
+
+/*Hero Section Styling*/
 .hero{
     background-image:url("images/LighthouseWeb.jpg");
     width:100%;
@@ -23,9 +21,17 @@ padding: 5em;
 color: white;
 text-shadow: 1px 1px 1px black;
 }
+
 .hero_text{
     width: 60%;
 }
+
+h1{
+    font-family: 'Sail', cursive;
+    font-size:6em;
+    }
+
+/*Activities Section Styling*/
 .activities{
     margin:2em auto;
     font-size: 2em;
@@ -41,6 +47,25 @@ text-shadow: 1px 1px 1px black;
 .single-activity{
     width:300px;
 }
+
+.activities img {
+    width:150px;
+    height:150px;
+    padding: 5px;
+    margin:.5em;
+    border-radius:50%;
+}
+
+.activities h4 {
+    font-size: .7em;
+}
+
+.activities p {
+    font-size: .5em;
+}
+
+/* Guide Section Styling */
+
 .guide{
    display: flex;
     background-color:lightblue;
@@ -71,21 +96,7 @@ text-shadow: 1px 1px 1px black;
     padding: 20px 0px 5px;
 }
 
-.activities img {
-    width:150px;
-    height:150px;
-    padding: 5px;
-    margin:.5em;
-    border-radius:50%;
-}
 
-.activities h4 {
-    font-size: .7em;
-}
-
-.activities p {
-    font-size: .5em;
-}
 .headshot{
    width: 200px;
    padding:10px 0;
