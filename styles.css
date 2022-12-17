@@ -1,0 +1,91 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h1{
+font-family: 'Sail', cursive;
+font-size:6em;
+}
+.hero{
+    background-image:url("images/LighthouseWeb.jpg");
+    width:100%;
+height:100vh;
+background-size:cover;
+text-align:left;
+padding: 5em;
+color: white;
+text-shadow: 1px 1px 1px black;
+}
+.hero_text{
+    width: 60%;
+}
+.activities{
+    margin:2em;
+    font-size: 2em;
+}
+.activity-description{
+    display: flex;
+    width:80%;
+    margin:0 auto;
+}
+.single-activity{
+    width:300px;
+}
+.guide{
+   display: flex;
+    background-color:lightblue;
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    padding:5px 100px;
+    border-radius: 10px;
+}
+
+.guide-photo{
+    margin: auto 75px auto 0;
+}
+
+.guide-text{
+    margin: auto 0px auto 0;
+}
+
+.guide h3{
+    font-size: 1.75em;
+}
+
+.guide p{
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.activities img {
+    width:150px;
+    height:150px;
+    padding: 5px;
+    margin:.5em;
+    border-radius:50%;
+}
+
+.activities h4 {
+    font-size: .7em;
+}
+
+.activities p {
+    font-size: .5em;
+}
+.headshot{
+   width: 200px;
+   padding:10px 0;
+}
